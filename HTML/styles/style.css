@@ -1,3 +1,7 @@
+*{
+    font-family: monospace;
+}
+
 ul{
     text-align: right;
     font-size: 18px;
@@ -78,3 +82,23 @@ th.precio{
 .info{
     text-align: center;
 }    
+
+.boton {
+    background-color: #c94c4c;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.boton:hover{
+    color: black;
+    background-color: #ca8787 ;
+    text-decoration: none;
+}
+#nav{
+    background-color: rgb(197, 92, 92);
+    height: 40px;
+    padding: 10px;
+    float: center;
+}
